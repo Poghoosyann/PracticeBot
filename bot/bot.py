@@ -6,7 +6,7 @@ import json
 from aiogram import Dispatcher, Bot, types, F
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
-from aiogram.filters import CommandStart
+from aiogram.filters import CommandStart, Command
 from aiogram.types import Message, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from dotenv import load_dotenv
 
@@ -194,6 +194,23 @@ async def settings_button_handler(message: types.Message):
     )
 
     await message.answer(settings_text, reply_markup = settings_language)
+
+
+@dp.message(lambda message: is_button_text_for_key(message.text, "button_help") or Command("help"))
+async def help_button_or_command_handler(message: types.Message):
+    user_id = message.from_user.id
+    user_data = None
+
+    async with httpx.AsyncClient() as client:
+        response = await client.get(f"{API_KEY}/users/{user_id}")
+        response.raise_for_status()
+        user_data = response.json() 
+
+    current_lang = user_data.get("language_code", "en")
+
+    help_text = get_translated_text("help_cmd_btn_text", current_lang)
+
+    await message.answer(help_text)
 
 async def main():
     bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))

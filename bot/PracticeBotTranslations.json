@@ -1,0 +1,87 @@
+{
+    "choose_language_text": {
+        "en": "Please, choose your language:",
+        "ru": "Пожалуйста, выберите язык:",
+        "hy": "Խնդրում ենք ընտրել ձեր լեզուն:"
+    },
+    "welcome_message": {
+        "en": "Hello, I’m a Practice bot\nYou can:\nGet your first project using /get_project command\nOther commands:\n/help → Help\n/history → Projects history\n/request_portfolio → Request for portfolio and certification.",
+        "ru": "Привет, я PracticeBot\nВы можете:\nПолучить свой первый проект командой /get_project\nДругие команды:\n/help → Помощь\n/history → История проектов\n/request_portfolio → Запрос портфолио и сертификата.",
+        "hy": "Բարև, ես PracticeBot եմ\nԴուք կարող եք՝\nՍտանալ ձեր առաջին նախագիծը /get_project հրամանով\nԱյլ հրամաններ՝\n/help → Օգնություն\n/history → Նախագծերի պատմություն\n/request_portfolio → Պորտֆոլիոյի և սերտիֆիկատի հարցում."
+    },
+    "project_text": {
+        "en": "Available commands:\n/get_project → Get project\n/project → Check project state\n/finish_project → Finish project",
+        "ru": "Доступные команды:\n/get_project → Получить проект\n/project → Проверить состояние проекта\n/finish_project → Завершить проект",
+        "hy": "Հասանելի հրամաններ․\n/get_project → Ստանալ նախագիծ\n/project → Ստուգել նախագծի վիճակը\n/finish_project → Ավարտել նախագիծ"
+    },
+    "button_projects": {
+        "en": "Projects",
+        "ru": "Проекты",
+        "hy": "Նախագծեր"
+    },
+    "button_get_project": {
+        "en": "Get Project",
+        "ru": "Получить проект",
+        "hy": "Ստանալ նախագիծ"
+    },
+    "button_help": {
+        "en": "Help",
+        "ru": "Помощь",
+        "hy": "Օգնություն"
+    },
+    "button_history": {
+        "en": "History",
+        "ru": "История",
+        "hy": "Պատմություն"
+    },
+    "button_request": {
+        "en": "Request for portfolio and Certification",
+        "ru": "Запрос на портфолио и сертификацию",
+        "hy": "Պորտֆոլիոյի և սերտիֆիկացման հարցում"
+    },
+    "button_settings": {
+        "en": "Settings",
+        "ru": "Настройки",
+        "hy": "Կարգավորումներ"
+    },
+    "button_user": {
+        "en": "User",
+        "ru": "Пользователь",
+        "hy": "Օգտատեր"
+    },
+    "user_info_title": {
+        "en": "User Information",
+        "ru": "Информация о пользователе",
+        "hy": "Օգտատերի տվյալներ"
+    },
+    "username": {
+        "en": "Username",
+        "ru": "Имя пользователя",
+        "hy": "Օգտանուն"
+    },
+    "first_name": {
+        "en": "First Name",
+        "ru": "Имя",
+        "hy": "Անուն"
+    },
+    "last_name": {
+        "en": "Last Name",
+        "ru": "Фамилия",
+        "hy": "Ազգանուն"
+    },
+    "language_code": {
+        "en": "Language",
+        "ru": "Язык",
+        "hy": "Լեզու"
+    },
+    "null_user":{
+        "en": "Not specified",
+        "ru": "Не указано",
+        "hy": "Նշված չէ"
+    },
+    "request_btn_text":{
+        "en": "Available commands:\n/get_portfolio → Request to create user’s portfolio\n/get_certification → Request to create user’s certification",
+        "ru": "Доступные команды:\n /get_portfolio → Запрос на создание портфолио пользователя,\n /get_certification → Запрос на создание сертификации пользователя",
+        "hy": "Հասանելի հրամաններ:\n /get_portfolio → Պահանջել օգտատիրոջ պորտֆոլիոյի ստեղծում,\n /get_certification → Պահանջել օգտատիրոջ հավաստագրի ստեղծում"
+    }
+}
